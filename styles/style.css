@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header{
     background-image: url('../banner/banner2.png');
@@ -67,6 +68,43 @@
     margin-right: 30px;
 }
 
+/* about style  */
+
+.info{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 130px;
+    background: #d8c5b8;
+    border-radius: 10px;
+    padding: 110px 130px ;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+    
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
 /* my plan  */
 
 .my-plan{
