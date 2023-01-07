@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+}
+.header{
+    background-image: url('../banner/banner2.png');
+    width: 1510px;
+    height: 800px;
+    /* margin-top: 0px;
+    padding-top: 0; */
+    text-align: right;
+}
+.header-title{
+    width: 525px;
+    height: 228px;
+    /* margin-top: 216px; */
+    margin-left: 845px;
+    padding-top: 216px;
+    
+    
+    font-weight: 700;
+    font-size: 65px;
+}
+.header-discription{
+    width: 495px;
+    height: 80px;
+    margin-left: 876px;
+    font-weight: 400px;
+    font-size: 16px;
+    /* margin-top: 50px; */
+}
+.btn-primary{
+    color: white;
+    background-color: orange;
+    border-style: none;
+    padding: 20px 26px;
+    border-radius: 5px;
+    margin-right: 140px;
+}
+
+/* main part  */
+.previous-year{
+    display: flex;
+    height: 723px;
+    width: 1072px;
+    margin-top: 130px;
+    margin-left: 206px;
+    
+}
+.previous-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 350px;
+    width: 288px;
+    height: 94;
+    margin-bottom: 20px;
+}
+.previous-discription{
+    font-weight: 400;
+    font-size: 16px;
+    height: 104px;
+    width: 390px;
+    /* margin-bottom: 15px; */
+}
+.previous-list{
+    font-size: 16px;
+    font-weight: 400px;
+    margin-right: 30px;
+}
+
+/* my plan  */
+
+.my-plan{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+.skill{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.skill-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.skill-discription{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.mindset{
+    background-image:url('../images/gradient2.png'), url('../images/watch.png') ;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 1140px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-bottom: 130px;
+}
+.mindset-title{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    height: 94px;
+    width: 460px;
+    margin-left: 65px;
+    padding-top: 60px;
+
+}
+.btn-mindset{
+    color: orange;
+    background-color: white;
+    border-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 36px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+/* footer style  */
+
+.footer{
+    background-color: black;
+    width: 1510px;
+    height: 577px
+}
+.future{
+  color: white;
+  display: flex;
+}
+
+.future-title{
+    margin-top: 130px;
+    margin-left: 230px;
+}
+.future-discription{
+    margin-top: 30px;
+    margin-left: 230px;
+    width: 485px;
+    height: 78px;
+}
+.email{
+    padding-top: 10px;
+    margin-left: 230px;
+    margin-bottom: 10px;
+    width: 485px;
+    height: 78px;
+}
+.phone{
+    margin-left: 230px;
+    width: 200px;
+    height: 50px;
+}
+.img{
+    margin-left: 230px;
+    
+}
+
+
+.subscribe{
+    color: white;
+    margin-top: 130px;
+    margin-left: 330px ;
+}
+.btn-fooder{
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    margin-left: 330px;
+    width: 325px;
+    height: 64px;
+    border-color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+.btn-subscribe{
+    margin-left: 280px;
+}
